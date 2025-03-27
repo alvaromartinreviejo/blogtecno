@@ -1,0 +1,95 @@
+/* Hoja de estilos CSS*/
+    body {
+      background-image : url(../static/imagenes/fondo.jpg);
+      font-family: "Consolas","Open Sans", "Arial", "Helvetica", sans-serif;
+      margin:0;
+      color: white;
+    }
+    nav{
+      margin-top: 75px;
+    }
+    h1 {
+      width: 100%;
+      position:fixed;
+      top:0px;
+      left:0px;
+      margin-top:0px;
+      margin-bottom:0px;
+      letter-spacing: -2px;
+      margin-left: 0px;
+      padding-left: 70px;
+      background: #FFFFFF78 url(../static/imagenes/logoBlanco.png) no-repeat left center;
+      font-size: 60px;   
+    }
+    ul{
+      margin-top:0px;
+      margin-left:70px;
+    }
+    li{
+      display: inline;
+    }
+    a{
+      color:white;
+    }
+    h2 {
+      text-align:center;
+      text-shadow: rgb(19, 17, 17) 3px 3px;
+      margin-bottom: 8px;
+      font-size: 50px;
+      letter-spacing: 16px;
+      clear:both;
+    }
+    .imagenes{
+      display: flex;
+      justify-content: space-around;
+    }
+    img {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left:10px;
+      margin-right:10px;
+      padding:10px;
+      background-color: white;
+      width: 19%;
+    }
+    .flotante{
+      float:left;
+    }
+    .limpiar {
+      clear: both;
+    }
+    form {
+      background-color: white;
+      margin:10px;
+      padding:20px;
+      border: solid 4px black;
+      color:black;
+    }
+    legend {
+      font-size: 2em;
+      text-shadow: #00000023 3px 3px;
+      }
+    #enviar {
+      font-size: 20px;
+      width: 140px;
+      height: 50px;
+      color: white;
+      background-color: green;
+      border-radius: 11px;
+    }
+    footer {
+      padding:30px;
+      margin-top:50px;
+      background-color: white;
+      border-top: solid 4px black;
+      color:black;
+    }
+    .inicio {
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-weight: bold;
+      /* Hay que definir la propiedad color en la clase .inicio porque aunque también
+      herede el color del contenedor footer, de quien realmente hereda que macahaca
+      el anterior, es de contenedor a */
+      color:black;
+    }
